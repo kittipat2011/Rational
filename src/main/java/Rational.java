@@ -84,11 +84,10 @@ class Rational {
     public boolean equals(Object x) {
         // to be completed
         simplestForm();
-        Rational temp = new Rational();
-        temp = ((Rational)x);
-        temp.simplestForm();
-        if((numerator == temp.numerator) && denominator == temp.denominator){
-            return true; // TODO: This needs to be modified.
+        Rational given_rational = x instanceof Rational ? ((Rational) x) : null;
+        if( given_rational != null){
+            given_rational.simplestForm();
+            return (numerator == given_rational.numerator) && denominator == given_rational.denominator; // TODO: This needs to be modified.
         }else
             return false;
     }
@@ -101,18 +100,21 @@ class Rational {
      */
     public long compareTo(Object x) {
         // to be completed
+        Rational given_rational = x instanceof Rational ? ((Rational) x) : null;
         simplestForm();
-        Rational temp;
-        temp = ((Rational)x);
-        temp.simplestForm();
-        float cur_rational = numerator / denominator;
-        float given_rational = temp.numerator / temp.denominator;
-        if((numerator == temp.numerator) && denominator == temp.denominator){
-            return 0;
-        }else if( cur_rational > given_rational){
-            return -1;
+        if( given_rational != null){
+            given_rational.simplestForm();
+            float cal_cur_rational = numerator / denominator;
+            float cal_given_rational = given_rational.numerator / given_rational.denominator;
+            if((numerator == given_rational.numerator) && denominator == given_rational.denominator){
+                return 0;
+            }else if( cal_cur_rational > cal_given_rational){
+                return -1;
+            }else {
+                return 1; // TODO: this needs to be modified.
+            }
         }else {
-            return 1; // TODO: this needs to be modified.
+            return 2;
         }
 
     }
