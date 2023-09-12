@@ -46,5 +46,11 @@ public class RationalTest {
         Rational y = new Rational(1,2);
         Assert.assertEquals(true,x.equals(y));
     }
+    @Test
+    public void testCompareTo() throws Rational.Illegal {
+        Rational x = new Rational(1,2);
+        Rational y = new Rational(1,4);
+        Assert.assertEquals(1,x.compareTo(y));
+    }
 
 }
