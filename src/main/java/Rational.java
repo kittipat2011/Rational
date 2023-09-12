@@ -13,7 +13,7 @@ class Rational {
         super();
     }
 
-    Rational(long numerator, long denominator) throws Illegal { 
+    Rational(long numerator, long denominator) {
         // to be completed
         this.numerator = numerator;
         this.denominator = denominator;
@@ -115,6 +115,7 @@ class Rational {
             }
         }else {
             return 2;
+
         }
 
     }

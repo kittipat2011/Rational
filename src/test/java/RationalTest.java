@@ -15,7 +15,7 @@ public class RationalTest {
         Assert.assertEquals(4, x.denominator);
     }
     @Test
-    public void testSubtract() throws Rational.Illegal {
+    public void testSubtract(){
         Rational x = new Rational(1,2);
         Rational y = new Rational(1,4);
         x.subtract(y);
@@ -24,7 +24,7 @@ public class RationalTest {
     }
 
     @Test
-    public void testMultiply() throws Rational.Illegal {
+    public void testMultiply() {
         Rational x = new Rational(1,2);
         Rational y = new Rational(1,4);
         x.multiply(y);
@@ -33,7 +33,7 @@ public class RationalTest {
     }
 
     @Test
-    public void testDivide() throws Rational.Illegal {
+    public void testDivide() {
         Rational x = new Rational(1,2);
         Rational y = new Rational(1,4);
         x.divide(y);
@@ -41,13 +41,13 @@ public class RationalTest {
         Assert.assertEquals(1, x.denominator);
     }
     @Test
-    public void testEquals() throws Rational.Illegal {
+    public void testEquals() {
         Rational x = new Rational(1,2);
         Rational y = new Rational(1,2);
         Assert.assertEquals(true,x.equals(y));
     }
     @Test
-    public void testCompareTo() throws Rational.Illegal {
+    public void testCompareTo() {
         Rational x = new Rational(1,2);
         Rational y = new Rational(1,4);
         Assert.assertEquals(1,x.compareTo(y));
