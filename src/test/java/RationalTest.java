@@ -44,7 +44,7 @@ public class RationalTest {
     public void testEquals() {
         Rational x = new Rational(1,2);
         Rational y = new Rational(1,2);
-        Assert.assertEquals(true,x.equals(y));
+        Assert.assertEquals(x, y);
     }
     @Test
     public void testCompareTo() {
