@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: RationalTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s - in RationalTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in RationalTest

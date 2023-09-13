@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="LAPTOP-70MQ3A0V" name="RationalTest" skipped="0" tests="6" time="0.074" timestamp="2566-09-13T03:53:29">
+<testsuite errors="0" failures="0" hostname="LAPTOP-70MQ3A0V" name="RationalTest" skipped="0" tests="21" time="0.193" timestamp="2566-09-13T06:53:55">
   <properties>
     <property name="ant.project.invoked-targets" value="test" />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
@@ -68,12 +68,27 @@
     <property name="sun.desktop" value="windows" />
     <property name="sun.cpu.isalist" value="amd64" />
   </properties>
-  <testcase classname="RationalTest" name="testAdd" time="0.015" />
-  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
-  <testcase classname="RationalTest" name="testCompareTo" time="0.0" />
-  <testcase classname="RationalTest" name="testDivide" time="0.0" />
-  <testcase classname="RationalTest" name="testEquals" time="0.0" />
-  <testcase classname="RationalTest" name="testMultiply" time="0.002" />
+  <testcase classname="RationalTest" name="testEquals1" time="0.023" />
+  <testcase classname="RationalTest" name="testEquals2" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo1" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo2" time="0.001" />
+  <testcase classname="RationalTest" name="testCompareTo3" time="0.0" />
+  <testcase classname="RationalTest" name="testAdd1" time="0.001" />
+  <testcase classname="RationalTest" name="testAdd2" time="0.0" />
+  <testcase classname="RationalTest" name="testAdd3" time="0.0" />
+  <testcase classname="RationalTest" name="testAdd4" time="0.001" />
+  <testcase classname="RationalTest" name="testMultiply1" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply2" time="0.001" />
+  <testcase classname="RationalTest" name="testMultiply3" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply4" time="0.001" />
+  <testcase classname="RationalTest" name="testSubtract1" time="0.0" />
+  <testcase classname="RationalTest" name="testSubtract2" time="0.001" />
+  <testcase classname="RationalTest" name="testSubtract3" time="0.001" />
+  <testcase classname="RationalTest" name="testSubtract4" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide1" time="0.001" />
+  <testcase classname="RationalTest" name="testDivide2" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide3" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide4" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

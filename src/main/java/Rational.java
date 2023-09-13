@@ -104,8 +104,10 @@ class Rational {
         simplestForm();
         if( given_rational != null){
             given_rational.simplestForm();
-            float cal_cur_rational = numerator / denominator;
-            float cal_given_rational = given_rational.numerator / given_rational.denominator;
+            double cal_cur_rational = (double) numerator / (double) denominator;
+            //System.out.println(cal_cur_rational); debug
+            double cal_given_rational = (double) given_rational.numerator / (double) given_rational.denominator;
+//          //System.out.println(cal_given_rational); debug
             if((numerator == given_rational.numerator) && denominator == given_rational.denominator){
                 return 0;
             }else if( cal_cur_rational > cal_given_rational){

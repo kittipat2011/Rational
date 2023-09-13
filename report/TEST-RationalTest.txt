@@ -1,9 +1,24 @@
 Testsuite: RationalTest
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 sec
 
-Testcase: testAdd took 0.01 sec
-Testcase: testSubtract took 0 sec
-Testcase: testCompareTo took 0 sec
-Testcase: testDivide took 0 sec
-Testcase: testEquals took 0 sec
-Testcase: testMultiply took 0.002 sec
+Testcase: testEquals1 took 0.017 sec
+Testcase: testEquals2 took 0 sec
+Testcase: testCompareTo1 took 0 sec
+Testcase: testCompareTo2 took 0.001 sec
+Testcase: testCompareTo3 took 0 sec
+Testcase: testAdd1 took 0 sec
+Testcase: testAdd2 took 0 sec
+Testcase: testAdd3 took 0 sec
+Testcase: testAdd4 took 0.001 sec
+Testcase: testMultiply1 took 0 sec
+Testcase: testMultiply2 took 0.001 sec
+Testcase: testMultiply3 took 0 sec
+Testcase: testMultiply4 took 0.001 sec
+Testcase: testSubtract1 took 0 sec
+Testcase: testSubtract2 took 0 sec
+Testcase: testSubtract3 took 0.001 sec
+Testcase: testSubtract4 took 0 sec
+Testcase: testDivide1 took 0 sec
+Testcase: testDivide2 took 0 sec
+Testcase: testDivide3 took 0 sec
+Testcase: testDivide4 took 0.001 sec
